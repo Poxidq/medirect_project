@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Home Page {% endblock %}
+
+{% block content %}
+<!-- SEARCH BLOCK -->
+
+<!-- BLOCK TITLE -->
+<div class="container-fluid">
+<h1 class="mx-auto" style="color: #D2D2D3; font-weight: bold; width: 257px; margin-top: 1%; font-size: 64px;">Главная</h1>
+<!-- BLOCK TEXT -->
+<p class="text" style="font-size: 23px; margin-left: 70px;">Мы постораемся найти подходящую информацию.
+Пожалуйста, вводите название заболевания и т.д. без лишних знаков (!@ и т. п.).</p>
+<!-- BLOCK INPUT -->
+	<div class="row">
+		<input type="text" class="input_default" placeholder="Поиск" aria-label="Поиск" aria-describedby="basic-addon1">
+		<img class="btn" src="{% static 'img/search_icon.png' %}" width="70" alt="">
+	</div>
+</div>	
+<!-- N E W S -->
+
+<!-- NEWS TITLE -->
+
+<div class="container-fluid">
+	<hr style="margin-bottom: 0; color: #D2D2D3; height: 4px; border: 2;">
+	<h2 class="news_title text-left">Последние новости</h2>
+</div>
+
+<!-- NEWS CARD -->
+<div class="news_card">
+	<div class="card mb-3" style="max-width: auto; margin: 0 20px 10px 20px;">
+	  <div class="row no-gutters">
+	    <div class="col-md-5">
+	    	<div class="row">
+				<h4> Название </h4>
+				<p class="text-left">Дата публикации 01.01.2020 Автор Example</p>
+	    	</div>
+		    	<img src="{% static 'img/news_block_img.png' %} " class="card-img" alt="...">
+	    </div>
+	    <div class="col-md-7">
+	      <div class="card-body">
+	        <h3 class="card-title mx-auto"> Заголовок</h3>
+	        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. <span class="btn">Подробнее</span></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<div class="news_card">
+	<div class="card mb-3" style="max-width: auto; margin: 0 20px 10px 20px;">
+	  <div class="row no-gutters">
+	    <div class="col-md-5">
+	    	<div class="row">
+				<h4> Название </h4>
+				<p class="text-left">Дата публикации 01.01.2020 Автор Example</p>
+	    	</div>
+		    	<img src="{% static 'img/news_block_img.png' %} " class="card-img" alt="...">
+	    </div>
+	    <div class="col-md-7">
+	      <div class="card-body">
+	        <h3 class="card-title mx-auto"> Заголовок</h3>
+	        <p class="card-text">This is a wider card with supporting text bawdawdwittle bit long isext bawdawdwittle bit long is a wider card with supporting teext bawdawdwittle bit long is a wider card with supporting teext bawdawdwittle bit long is a wider card with supporting te a wider card with supporting text below as a natural lead-in to addit is a wider card with supporting text below as a natural lead-in to additer. <span class="btn">Подробнее</span></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+
+{% endblock %}

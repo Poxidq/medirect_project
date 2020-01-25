@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic');
+
+@import url('https://fonts.googleapis.com/css?family=Rhodium+Libre&display=swap');
+
+
+
+
+
+*{
+  padding: 0;
+  margin:0;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.body {
+  font-family: 'PT Sans Narrow';
+}
+
+.text { 
+  color: #D2D2D3;
+  
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 200px; /* значение высоты #footer */
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #D2D2D3;
+  color: #fff;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFE361;
+}
+
+.nav {
+  background: #D2D2D3;
+  height: 100px;
+}
+
+.dropdown {
+  margin-right: 150px;
+}
+
+.dropdown-menu {
+  background: #FFE361;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+  border: none;
+  margin-left: -85px;
+  margin-top: -8px;
+}
+
+.dropdown-menu a{
+  color: #fff;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: inherit;
+  }
+
+.dropdown-toggle::after {
+  display: 0;
+  margin-left: 0;
+  vertical-align: 0;
+  content: none;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #FFE361;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.dropdown-menu img{
+  mix-blend-mode: saturation;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: -10px;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
+.logout-link a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 62px;
+  color: #FFFFFF;
+  padding: 0;
+  position: absolute;
+  text-decoration: none;
+  background: #D2D2D3;
+}
+
+
+.logout-link {
+  float: right;
+  margin-right: 280px;
+}
+
+.title{
+  background: #FFE361;
+  height: 88px;
+  width: 300px;
+  margin-top: 5px;
+  margin: 0 auto;
+  font-family: 'Rhodium Libre', serif;
+}
+
+.title a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 92px;
+  margin-left: 40px;
+  color: #FFFFFF;
+  font-family: 'Rhodium Libre', serif;
+}
+
+.title img {
+  position: absolute;
+  margin-left: -50px;
+}
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.nav-item {
+  margin-right: 100px;
+}
+
+.logout_menu{
+  float: right;
+  margin-right: 50px;
+}
+
+
+.nav-container {
+  background: #D2D2D3;
+  height: 100px;
+}
+
+.logout {
+  margin-top: 15px;
+}
+
+/*СТИЛИ К НАЧАЛЬНОЙ СТРАНИЦЕ (HOME)*/
+
+.input_default {
+  /*FROM BOOTSTRAP*/
+  display: block;
+  width: 40%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #fff;
+  background: #FFE361;
+  border: none;
+  border-radius: 15px;
+  margin-left: 80px;
+}
+
+/* NEWS */
+
+.news_title {
+  padding: 0 15px;
+  width: max-content;
+  height: 70px;
+  left: 84px;
+  top: 374px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 70px;
+  /* identical to box height */
+  color: #FFFFFF;
+  background: #D2D2D3;
+  margin: 0 0 20px 30px;
+}
+
+hr {
+  border: none;
+  border-bottom: 5px solid #D2D2D3;
+
+}
+
+
+/*НАСТРОЙКА CARD*/
+
+.col-md-5 {
+  padding: 0 10px;
+  border-right: 4px solid #D2D2D3;
+}
+
+.card {
+  border: 3px solid #D2D2D3;
+}
+
+.card img {
+  margin: 10px 0 10px 0;
+  padding: 0 10px; 
+}
+
+.col-md-5 h4 {
+  background: #D2D2D3;
+  padding: 0 20px;
+  margin-left: 20%;
+  color: #fff;
+  display: block;
+  width: max-content;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 60px;
+  font-family: 'PT Sans Narrow';
+  margin-right: 0;
+}
+
+.col-md-5 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  background: #D2D2D3;
+  padding: 0 10px;
+  color: #fff;
+  width: 200px;
+  float: right;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.card-title {
+  padding: 10px 20px 0 20px;
+  position: relative;
+  margin-bottom: -40px;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  width: max-content;
+  color: #FFE361;
+  background: #fff;
+}
+
+.card-text {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background: #FFE361;
+  padding: 50px 10px 30px 10px;
+}
+
+.card-text span {
+  background: #fff;
+  color: #D2D2D3;
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  float: right;
+}
+
+.card-text span:hover {
+  background: #fff;
+  color: #FFE361;
+}
+
+/* (END)СТИЛИ К НАЧАЛЬНОЙ СТРАНИЦЕ (HOME)*/
+
+
+/*СТРАНИЦЫ РЕГИСТРАЦИИ*/
+
+
+
+.form_field{
+  border: none;
+  border-bottom: 3px solid #FFE361;
+  width:auto;
+}
+
+.login_form {
+  width: max-content;
+}
+
+.login_form input {
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 47px;
+
+  color: #D2D2D3;
+}
+
+.form_btn a{
+  color: #fff;
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  background: #D2D2D3;
+  border-radius: 15px;
+  margin-top: 2em;
+}
+
+.form_btn a:hover {
+  background: #FFE361; 
+  color: #fff;
+}
+
+.form_fields {
+  width: min-content;
+}
+
+
+.confrim_code {
+  background: #D2D2D3;
+  border-radius: 55px;
+  float: right;
+  margin-top: -300px;
+  padding: 40px;
+  margin-right: -60px;
+  width: min-content;
+}
+
+.confrim_code h4 {
+  width: max-content;
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  /* identical to box height */
+
+  
+  color: #FFFFFF;
+}
+
+.confrim_field {
+  margin-top: 50px;
+  background: #FFE361;
+  color: #fff;
+}
+
+.confrim_code a {
+  margin-top: 20px;
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 100%;
+
+  background: #FFE361;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  color: #FFE361;
+  background: #fff;
+  text-decoration: none;
+}
+
+.confrim_code p {
+  margin-top: 20px;
+  font-family: PT Sans Narrow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
